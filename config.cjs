@@ -2,8 +2,8 @@ const fs = require("fs");
 require("dotenv").config();
 
 const config = {
-  SESSION_ID: process.env.SESSION_ID || "POPKID$uKyTN3M0",
-  PREFIX: process.env.PREFIX || '.',
+  SESSION_ID: process.env.SESSION_ID || "POPKID~8s5nULjC#-RhJZw9mGAx3YBpkolXg96PYnzd0JeZMOX4R6dXEYMs",
+  PREFIX: process.env.PREFIX || '☘️',
   AUTO_TYPING: process.env.AUTO_TYPING !== undefined ? process.env.AUTO_TYPING === 'true' : false,
   AUTO_RECORDING: process.env.AUTO_RECORDING !== undefined ? process.env.AUTO_RECORDING === 'true' : false, 
   ALWAYS_ONLINE: process.env.ALWAYS_ONLINE !== undefined ? process.env.ALWAYS_ONLINE === 'false' : false,
